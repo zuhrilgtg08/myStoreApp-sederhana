@@ -198,11 +198,10 @@ img {
 }
 
 .home__img {
-    position: relative;
-    left: 0;
-    top: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     width: 260px;
-    margin-top: 3.5rem;
 }
 
 .button {
@@ -307,7 +306,7 @@ img {
 }
 
 .offer__bg {
-    background: url(../img/ical2.jfif) no-repeat center/cover;
+    background: url(../img/offer.jpg) no-repeat center/cover;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -493,7 +492,7 @@ img {
     }
 
     .home__img {
-        height: 270px;
+        width: 370px;
     }
 
     .collection__container {
